@@ -1,0 +1,88 @@
+body {
+  background: linear-gradient(to bottom, #4A737D, #CBBB75);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+  display: flex;
+    align-items: center;
+    justify-content: center;
+  width: 100%;
+  height: 100px;
+  color: #CBBB75;
+  font-size: 3em;
+}
+
+ul {
+  list-style: none;
+  text-align: center;
+  margin-left: 35%
+  margin-right: 35%;
+}
+
+p {
+  font-size: 1.5em;
+  text-align: center;
+}
+
+#enter, #userinput {
+  border-radius: 300px;
+  text-align: center;
+  height: 3em;
+  width: 70%;
+  border: none;
+}
+
+#enter {
+  background-color: #477187;
+}
+
+#enter:hover {
+  background-color: #FF7400;
+  transition: 0.3s;
+    cursor: pointer;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  align-items: center;
+  margin-left: 35%;
+  margin-right: 35%;
+
+}
+
+.listbutton {
+  border-radius: 300px;
+  border: none;
+  margin-left: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  height: 1.5em;
+}
+
+.listbutton:hover {
+  background-color: #C66376;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+li:hover{
+  cursor: pointer;
+}
+.footer {
+  position: absolute;
+  background-color: #C0C0C0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+  height: 20px;
+  text-align: center;
+  color: white;
+}
+.undone.done {
+  text-decoration: line-through;
+}
