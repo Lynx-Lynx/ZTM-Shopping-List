@@ -101,7 +101,7 @@ p {
 }
 
 .removebutton {
-  background-image: url("remove.png");
+  background: url("remove.png") no-repeat;
   width: 20px;
   height: 20px;
   margin-left: 20px;
@@ -109,6 +109,7 @@ p {
 
 li:hover, .removebutton:hover {
   cursor: pointer;
+  color: #ff4500;
 }
 
 .undone.done {
