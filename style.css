@@ -54,28 +54,9 @@ p {
   grid-area: b;
 }
 
-#enter:hover {
-  background-color: #00ad00;
-  color: white;
-  transition: 0.3s;
-  cursor: pointer;
-}
-
 #reset {
   background-color: #ff4500;
   grid-area: c;
-}
-
-#reset:hover {
-  background-color: #d13900;
-  color: white;
-  transition: 0.3s;
-  cursor: pointer;
-}
-
-#remove {
-  display: flex;
-  flex-direction: column;
 }
 
 .container {
@@ -106,14 +87,28 @@ p {
   height: 20px;
 }
 
-li:hover, .removebutton:hover {
-  cursor: pointer;
-  color: #ff4500;
-}
-
 .undone.done {
   text-decoration: line-through;
   transition: 0.3s;
+}
+
+@media (hover: hover) {
+  #enter:hover {
+    background-color: #00ad00;
+    color: white;
+    transition: 0.3s;
+    cursor: pointer;
+  }
+  #reset:hover {
+    background-color: #d13900;
+    color: white;
+    transition: 0.3s;
+    cursor: pointer;
+  }
+  li:hover, .removebutton:hover {
+    cursor: pointer;
+    color: #ff4500;
+  }
 }
 
 @media only screen and (max-width: 650px) {
