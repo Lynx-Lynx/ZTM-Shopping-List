@@ -101,16 +101,9 @@ p {
 }
 
 .removebutton {
-<<<<<<< HEAD
   background: url("remove.png") no-repeat;
   width: 20px;
   height: 20px;
-=======
-  background: url("remove.svg") no-repeat;
-  width: 30px;
-  height: 30px;
->>>>>>> e4ddcc394342e6c33edd9c036a17f99cd53a9ee0
-  margin-left: 20px;
 }
 
 li:hover, .removebutton:hover {
