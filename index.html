@@ -1,22 +1,25 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Javascript + DOM</title>
+	<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Shopping List</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
-	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet"> 
 </head>
 <body>
-	<h1>Shopping list</h1>
-		<p id="first">What would you like to buy?<br>
-		Click on the item to mark it as "done".</p>
-		<div class="container">
-		<input id="userinput" type="text" placeholder="enter items">
+	<h1>Stuff To Buy</h1>
+	<p>Click on the item to mark it as 'done'.</p>
+	<div class="container">
+		<input id="userinput" maxlength="25" type="text" placeholder="enter items">
 		<button id="enter">Enter</button>
-      </div>
-		<ul>
-		</ul>
-  <div class="footer">Made by Persik 
-🍑</div>
+		<button id="reset">Reset</button>
+  </div>
+  <div class="board">
+		<ul></ul>
+	</div>
 	<script type="text/javascript" src="script.js"></script>
 </body>
 </html>
