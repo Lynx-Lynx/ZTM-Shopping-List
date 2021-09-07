@@ -101,9 +101,9 @@ p {
 }
 
 .removebutton {
-  background-image: url("remove.png");
-  width: 20px;
-  height: 20px;
+  background: url("remove.svg") no-repeat;
+  width: 30px;
+  height: 30px;
   margin-left: 20px;
 }
 
