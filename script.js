@@ -30,7 +30,7 @@ function removeItem() {
 }
 
 function removeAllItems() {
-	ul.remove();
+  ul.textContent = '';
 }
 
 function addListAfterClick() {
