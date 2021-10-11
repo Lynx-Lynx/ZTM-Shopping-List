@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  background: url("supermarket.jpg") no-repeat fixed;
+  background: url("supermarket.jpg") no-repeat cover fixed;
   color: white;
   font-family: 'Indie Flower', cursive;
   text-align: center;
