@@ -83,9 +83,9 @@ p {
 }
 
 .removebutton {
-  background: url("remove.png") no-repeat;
-  width: 20px;
-  height: 20px;
+  background: url("rm.svg") no-repeat;
+  width: 32px;
+  height: 32px;
 }
 
 .undone.done {
